@@ -1,0 +1,35 @@
+.container__button {
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    gap: 20px;
+    p {
+        font-weight: 100;
+        font-size: 20px;
+    }
+    .border__button {
+        
+        border: 1px solid #AD00FF;
+        padding: 5px;
+        width: fit-content;
+        &:hover {
+            border: 1px solid #fff;
+        }
+        button {
+            cursor: pointer;
+            width: 300px;
+            border: none;
+            background: none;
+            background-color: rgba($color: #510574, $alpha: 1);
+            padding: 40px;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Roboto';
+            font-size: 24px;
+            transition: 0.3s;
+            &:hover {
+                background-color: rgba($color: #AD00FF, $alpha: 1);
+            }
+        }
+    }
+}
